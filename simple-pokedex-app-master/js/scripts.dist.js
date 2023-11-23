@@ -4,7 +4,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var pokemonRepository = function () {
     var items = [];
-    var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150';
+    var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=100000';
 
     function addSingle(item) {
         if (validate(item)) {
