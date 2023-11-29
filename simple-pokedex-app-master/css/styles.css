@@ -2,15 +2,32 @@
     border-radius: 6px;
     overflow-x: auto;
     padding: 10px;
-    white-space: nowrap;
     text-align: center;
+    white-space: nowrap;
+}
+
+#searchfield{
+    background-color: rgb(211, 94, 85);
+    border: 2px solid rgb(175, 87, 76);
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+#searchbar{
+    border: black 2px solid;
+    border-radius: 4px;
+    height: 20px;
+    width: 400px;
 }
 
 .pokemon-list {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
     display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .pokemon-list-item {
