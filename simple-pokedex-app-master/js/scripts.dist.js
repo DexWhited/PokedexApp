@@ -4,7 +4,13 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var pokemonRepository = function () {
     var items = [];
+    //current url below brings up all pokemon up to ogerpon
     var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=1017';
+
+    // url below brings up all extra pokemon after ogerpon | deoxys-attack, deoxys-defense etc.
+    // after ogerpon, list goes back to pokedex order of different forms/variations that is where
+    // you find different forms (alolan, galarian, hisuian, paldean | mega forms, g-max, variants).
+    // original hisui pokemon (Kleavor, Overqwil, Enamorus) will be found after galar pokemon and before paldean pokemon
     // var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=100000';
 
     function addSingle(item) {

@@ -19,11 +19,19 @@
                 </div>
             </div>
             <div id="body">
-                <!-- Needs to be turned into buttons, when clicked,
-                    will show list beneath grid of all pokemon from
-                    that gen/region and will have the same search
-                    function. When new region is clicked list
-                    will change to be that new region-->
+                <!--Each needs to have an onClick function, when clicked,
+                    it will show a list beneath the grid of all pokemon 
+                    from that region and will have the same search function.
+                    When looking at a single pokemon, https://pokeapi.co/api/v2/pokemon/ditto
+                    they don't have a region origin to them. When looking at a specific region,
+                    https://pokeapi.co/api/v2/region/kanto it doesn't have a list of pokemon
+                    specific to that region. Solution is to use https://pokeapi.co/api/v2/generation/(Id)
+                    and have like the typing, have each on click send in the id (1 for Kanto, 2 for Johto).
+                    Only problem with that one is that the pokemon aren't listed correctly. The pokemon go
+                    by first stage (0: Bulbasaur 1:Charmander 2:Squirtle 3:Caterpie 4:Weedle) then once all first/single stages
+                    are listed, proceeds with the rest (68: Ivysaur 69:Venusaur 70:Charmeleon 71:Charizard). This problem seems
+                    to occur for every gen
+                    -->
                 <div class="grid-container">
                     <div class="grid-item">Kanto</div>
                     <div class="grid-item">Johto</div>
