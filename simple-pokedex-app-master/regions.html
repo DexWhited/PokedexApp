@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Simple JS App</title>
+    </head>
+    <body>
+        <main>
+            <div id="searchfield">
+                <form id="search">
+                <h2>Region Search</h2>
+                <input id="searchbar" type="text">
+                </form>
+                <div>
+                    <a href="index.html" style="--clr:#C6C6A7"><span id="navbutton">Home</span></a>
+                    <a href="types.html" style="--clr:#C6C6A7"><span id="navbutton">Types</span></a>
+                </div>
+            </div>
+            <div id="body">
+                <!-- Needs to be turned into buttons, when clicked,
+                    will show list beneath grid of all pokemon from
+                    that gen/region and will have the same search
+                    function. When new region is clicked list
+                    will change to be that new region-->
+                <div class="grid-container">
+                    <div class="grid-item">Kanto</div>
+                    <div class="grid-item">Johto</div>
+                    <div class="grid-item">Hoenn</div>
+                    <div class="grid-item">Sinnoh</div>
+                    <div class="grid-item">Unova</div>
+                    <div class="grid-item">Kalos</div>
+                    <div class="grid-item">Alola</div>
+                    <div class="grid-item">Galar</div>
+                    <div class="grid-item">Hisui</div>
+                    <div class="grid-item">Paldea</div>
+                    <div class="grid-item">Kitakami</div>
+                </div>
+                <!-- <ul class='pokemon-list'>
+                    <li class="pokemon-list-item"></li>
+                </ul> -->
+            </div>
+        </main>
+
+        <script src="js/promise-polyfill.js"></script>
+        <script src="js/fetch-polyfill.js"></script>
+        <script src="js/scripts.dist.js"></script>
+    </body>
+</html>
