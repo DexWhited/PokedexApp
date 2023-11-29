@@ -1,0 +1,18 @@
+#body {
+    border-radius: 6px;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.pokemon-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.pokemon-list-item {
+    padding: 10px;
+}

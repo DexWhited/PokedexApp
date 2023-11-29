@@ -107,6 +107,7 @@ var pokemonRepository = function () {
 function addListItem(item) {
     var container = document.querySelector('.pokemon-list');
     var listItem = document.createElement('li');
+    listItem.classList.add('pokemon-list-item');
 
     var title = document.createElement('div');
     title.innerText = item.name;
@@ -133,7 +134,10 @@ function showDetails(item, listItem) {
             listItemDetails = document.createElement('img');
             listItemDetails.setAttribute('src', imageUrl);
             listItemDetails.classList.add('details');
-            listItem.appendChild(listItemDetails);
+            listItem.insertBefore(listItemDetails, listItem.firstChild);
+            var title = document.createElement('div');
+            title.innerText = item.name;
+            listItem.appendChild(listItem);
         });
     }
 }
