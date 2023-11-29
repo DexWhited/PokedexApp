@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
 #body {
     border-radius: 6px;
     overflow-x: auto;
@@ -8,7 +10,9 @@
 
 #searchfield{
     background-color: rgb(211, 94, 85);
-    border: 2px solid rgb(175, 87, 76);
+    border: 2px solid rgb(176, 54, 38);
+    border-radius: 4px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: sticky;
     text-align: center;
     top: 0;
@@ -31,5 +35,6 @@
 }
 
 .pokemon-list-item {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 10px;
 }

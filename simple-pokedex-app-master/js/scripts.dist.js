@@ -134,10 +134,7 @@ function showDetails(item, listItem) {
             listItemDetails = document.createElement('img');
             listItemDetails.setAttribute('src', imageUrl);
             listItemDetails.classList.add('details');
-            listItem.insertBefore(listItemDetails, listItem.firstChild);
-            var title = document.createElement('div');
-            title.innerText = item.name;
-            listItem.appendChild(listItem);
+            listItem.appendChild(listItemDetails);
         });
     }
 }
