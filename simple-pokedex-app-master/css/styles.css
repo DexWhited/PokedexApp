@@ -61,10 +61,10 @@ a:hover{
 }
 
 .grid-container {
-    background-color: #2196F3;
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding: 3px;
+    text-align: center;
     width: 900px;
 }
 
@@ -83,7 +83,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item1:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #C6C6A7;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item2 {
@@ -92,7 +104,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item2:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #F5AC78;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item3 {
@@ -101,7 +125,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item3:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #9DB7F5;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item4 {
@@ -110,7 +146,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item4:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #A7DB8D;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item5 {
@@ -119,7 +167,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item5:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #FAE078;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item6 {
@@ -128,7 +188,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item6:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #BCE6E6;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item7 {
@@ -137,7 +209,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item7:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #D67873;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item8 {
@@ -146,7 +230,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item8:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #C183C1;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item9 {
@@ -155,7 +251,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item9:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #EBD69D;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item10 {
@@ -164,7 +272,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item10:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #C6B7F5;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item11 {
@@ -173,7 +293,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item11:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #FA92B2;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item12 {
@@ -182,7 +314,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item12:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #C6D16E;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item13 {
@@ -191,7 +335,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item13:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #D1C17D;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item14 {
@@ -200,7 +356,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item14:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #A292BC;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item15 {
@@ -209,7 +377,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item15:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #A27DFA;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item16 {
@@ -218,7 +398,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item16:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #A29288;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item17 {
@@ -227,7 +419,19 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item17:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #D1D1E0;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
 
 .grid-item18 {
@@ -236,5 +440,17 @@ a:hover{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.grid-item18:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    color: #F4BDC9;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
 }
