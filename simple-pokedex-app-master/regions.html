@@ -10,15 +10,15 @@
         <main>
             <div id="searchfield">
                 <form id="search">
-                <h2>Region Search</h2>
-                <input id="searchbar" type="text">
+                    <h2>Region Search</h2>
+                    <input id="searchbar" type="text">
                 </form>
                 <div>
                     <a href="index.html" style="--clr:#C6C6A7"><span id="navbutton">Home</span></a>
                     <a href="types.html" style="--clr:#C6C6A7"><span id="navbutton">Types</span></a>
                 </div>
             </div>
-            <div id="body">
+            <div id="fakebody">
                 <!--Each grid item needs to have an onClick function, when clicked,
                     it will show a list beneath the grid, of all pokemon 
                     from that region and will have the same search function.
@@ -32,22 +32,24 @@
                     are listed, proceeds with the rest (68: Ivysaur 69:Venusaur 70:Charmeleon 71:Charizard). This problem seems
                     to occur for every gen
                     -->
-                <div class="grid-container">
-                    <div class="grid-item">Kanto</div>
-                    <div class="grid-item">Johto</div>
-                    <div class="grid-item">Hoenn</div>
-                    <div class="grid-item">Sinnoh</div>
-                    <div class="grid-item">Unova</div>
-                    <div class="grid-item">Kalos</div>
-                    <div class="grid-item">Alola</div>
-                    <div class="grid-item">Galar</div>
-                    <div class="grid-item">Hisui</div>
-                    <div class="grid-item">Paldea</div>
-                    <div class="grid-item">Kitakami</div>
+                <div class="grid-container2">
+                    <div class="grid-itemS2K" id="grid-item" style="--clr:goldenrod">Kanto</div>
+                    <div class="grid-itemS2J" id="grid-item" style="--clr:goldenrod">Johto</div>
+                    <div class="grid-itemS2HO" id="grid-item" style="--clr:goldenrod">Hoenn</div>
+                    <div class="grid-itemS2S" id="grid-item" style="--clr:goldenrod">Sinnoh</div>
+                    <div class="grid-itemS2U" id="grid-item" style="--clr:goldenrod">Unova</div>
+                    <div class="grid-itemS2KA" id="grid-item" style="--clr:goldenrod">Kalos</div>
+                    <div class="grid-itemS2A" id="grid-item" style="--clr:goldenrod">Alola</div>
+                    <div class="grid-itemS2G" id="grid-item" style="--clr:goldenrod">Galar</div>
+                    <div class="grid-itemS2HI" id="grid-item" style="--clr:goldenrod">Hisui</div>
+                    <div class="grid-itemS2P" id="grid-item" style="--clr:goldenrod">Paldea</div>
+                    <div class="grid-itemS2KI" id="grid-item" style="--clr:goldenrod">Kitakami</div>
                 </div>
-                <!-- <ul class='pokemon-list'>
+            </div>
+            <div id="body">
+                <ul class='pokemon-list'>
                     <li class="pokemon-list-item"></li>
-                </ul> -->
+                </ul>
             </div>
         </main>
 

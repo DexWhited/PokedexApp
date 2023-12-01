@@ -10,15 +10,15 @@
         <main>
             <div id="searchfield">
                 <form id="search">
-                <h2>Types</h2>
-                <input id="searchbar" type="text">
+                    <h2>Types</h2>
+                    <input id="searchbar" type="text">
                 </form>
                 <div>
                     <a href="index.html" style="--clr:#C6C6A7"><span id="navbutton">Home</span></a>
                     <a href="regions.html" style="--clr:#C6C6A7"><span id="navbutton">Regions</span></a>
                 </div>
             </div>
-            <div id="body">
+            <div id="fakebody">
                 <!--Each grid-item needs to have an onClick function, when clicked,
                     it will show a list beneath the grid, of all normal types and 
                     will have the same search function. When different typing 
@@ -27,28 +27,30 @@
                     in order to show the typings ie: 'Normal' when clicked, sends the id '1'
                     into the link to bring back data on Normal types-->
                 <div class="grid-container">
-                    <div class="grid-item1" style="--clr:#A8A878">Normal</div>
-                    <div class="grid-item2" style="--clr:#F08030">Fire</div>
-                    <div class="grid-item3" style="--clr:#6890F0">Water</div>
-                    <div class="grid-item4" style="--clr:#78C850">Grass</div>
-                    <div class="grid-item5" style="--clr:#F8D030">Electric</div>
-                    <div class="grid-item6" style="--clr:#98D8D8">Ice</div>
-                    <div class="grid-item7" style="--clr:#C03028">Fighting</div>
-                    <div class="grid-item8" style="--clr:#A040A0">Poison</div>
-                    <div class="grid-item9" style="--clr:#E0C068">Ground</div>
-                    <div class="grid-item10" style="--clr:#A890F0">Flying</div>
-                    <div class="grid-item11" style="--clr:#F85888">Psychic</div>
-                    <div class="grid-item12" style="--clr:#A8B820">Bug</div>
-                    <div class="grid-item13" style="--clr:#B8A038">Rock</div>
-                    <div class="grid-item14" style="--clr:#705898">Ghost</div>
-                    <div class="grid-item15" style="--clr:#7038F8">Dragon</div>
-                    <div class="grid-item16" style="--clr:#705848">Dark</div>
-                    <div class="grid-item17" style="--clr:#B8B8D0">Steel</div>
-                    <div class="grid-item18"style="--clr:#EE99AC">Fairy</div>
+                    <div class="grid-item1" id="grid-item" style="--clr:#A8A878">Normal</div>
+                    <div class="grid-item2" id="grid-item" style="--clr:#F08030">Fire</div>
+                    <div class="grid-item3" id="grid-item" style="--clr:#6890F0">Water</div>
+                    <div class="grid-item4" id="grid-item" style="--clr:#78C850">Grass</div>
+                    <div class="grid-item5" id="grid-item" style="--clr:#F8D030">Electric</div>
+                    <div class="grid-item6" id="grid-item" style="--clr:#98D8D8">Ice</div>
+                    <div class="grid-item7" id="grid-item" style="--clr:#C03028">Fighting</div>
+                    <div class="grid-item8" id="grid-item" style="--clr:#A040A0">Poison</div>
+                    <div class="grid-item9" id="grid-item" style="--clr:#E0C068">Ground</div>
+                    <div class="grid-item10" id="grid-item" style="--clr:#A890F0">Flying</div>
+                    <div class="grid-item11" id="grid-item" style="--clr:#F85888">Psychic</div>
+                    <div class="grid-item12" id="grid-item" style="--clr:#A8B820">Bug</div>
+                    <div class="grid-item13" id="grid-item" style="--clr:#B8A038">Rock</div>
+                    <div class="grid-item14" id="grid-item" style="--clr:#705898">Ghost</div>
+                    <div class="grid-item15" id="grid-item" style="--clr:#7038F8">Dragon</div>
+                    <div class="grid-item16" id="grid-item" style="--clr:#705848">Dark</div>
+                    <div class="grid-item17" id="grid-item" style="--clr:#B8B8D0">Steel</div>
+                    <div class="grid-item18" id="grid-item" style="--clr:#EE99AC">Fairy</div>
                 </div>
-                <!-- <ul class='pokemon-list'>
+            </div>
+            <div id="body">
+                <ul class='pokemon-list'>
                     <li class="pokemon-list-item"></li>
-                </ul> -->
+                </ul>
             </div>
         </main>
 

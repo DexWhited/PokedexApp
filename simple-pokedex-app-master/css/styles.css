@@ -4,8 +4,17 @@
     border-radius: 6px;
     overflow-x: auto;
     padding: 10px;
+    position: relative;
     text-align: center;
     white-space: nowrap;
+    z-index: 1;
+}
+
+#fakebody{
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
 }
 
 #searchfield{
@@ -17,6 +26,7 @@
     position: sticky;
     text-align: center;
     top: 0;
+    z-index: 2;
 }
 
 #searchbar{
@@ -60,21 +70,346 @@ a:hover{
     padding: 10px;
 }
 
+#grid-item{
+    margin: 10px;
+}
+
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    padding: 3px;
+    margin: 20px;
+    padding: 10px;
     text-align: center;
     width: 900px;
 }
 
-.grid-item {
-    background-color: #ffffffcc;
-    border: 1px solid #000000cc;
+.grid-container2 {
+    display: inline-grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 900px;
+}
+
+.grid-itemS2K {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding: 20px;
+    position: relative;
     text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2K:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/2/25/LGPE_Kanto_Map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2J {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2J:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/6/64/JohtoMap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2HO {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2HO:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/8/85/Hoenn_ORAS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2S {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2S:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/0/08/Sinnoh_BDSP_artwork.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2U {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2U:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/f/fc/Unova_B2W2_alt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2KA {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2KA:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/8/8a/Kalos_alt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2A {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2A:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/0/0b/Alola_USUM_artwork.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2G {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2G:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/c/ce/Galar_artwork.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2HI {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2HI:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/2/22/Legends_Arceus_Hisui.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2P {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2P:hover{
+    background-image: url(https://archives.bulbagarden.net/media/upload/f/fd/Paldea_artwork.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
+}
+
+.grid-itemS2KI {
+    background-color: rgb(235, 214, 163);
+    border: 3px solid #000;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    grid-column: 3;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    user-select: none;
+    width: 120px;
+}
+
+.grid-itemS2KI:hover{
+    background-image: url(https://assets.game8.co/tools/map/pokemon_sv/PokemonScarletandVioletKitakamiRegionMap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 35px var(--clr);
+    color: transparent;
+    height: 100px;
+    transition: 0.9s;
+    user-select: none;
+    width: 200px;
 }
 
 .grid-item1 {
@@ -87,6 +422,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item1:hover{
@@ -96,6 +432,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item2 {
@@ -108,6 +445,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item2:hover{
@@ -117,6 +455,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item3 {
@@ -129,6 +468,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item3:hover{
@@ -138,6 +478,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item4 {
@@ -150,6 +491,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item4:hover{
@@ -159,6 +501,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item5 {
@@ -171,6 +514,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item5:hover{
@@ -180,6 +524,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item6 {
@@ -192,6 +537,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item6:hover{
@@ -201,6 +547,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item7 {
@@ -213,6 +560,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item7:hover{
@@ -222,6 +570,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item8 {
@@ -234,6 +583,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item8:hover{
@@ -243,6 +593,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item9 {
@@ -255,6 +606,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item9:hover{
@@ -264,6 +616,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item10 {
@@ -276,6 +629,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item10:hover{
@@ -285,6 +639,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item11 {
@@ -297,6 +652,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item11:hover{
@@ -306,6 +662,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item12 {
@@ -318,6 +675,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item12:hover{
@@ -327,6 +685,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item13 {
@@ -339,6 +698,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item13:hover{
@@ -348,6 +708,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item14 {
@@ -360,6 +721,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item14:hover{
@@ -369,6 +731,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item15 {
@@ -381,6 +744,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item15:hover{
@@ -390,6 +754,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item16 {
@@ -402,6 +767,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item16:hover{
@@ -411,6 +777,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item17 {
@@ -423,6 +790,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item17:hover{
@@ -432,6 +800,7 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
 
 .grid-item18 {
@@ -444,6 +813,7 @@ a:hover{
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
+    user-select: none;
 }
 
 .grid-item18:hover{
@@ -453,4 +823,5 @@ a:hover{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    user-select: none;
 }
