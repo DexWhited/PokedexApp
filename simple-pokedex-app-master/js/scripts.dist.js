@@ -2,7 +2,7 @@ let pokemonRepository = (function() {
     let items = [];
     // define a new list to store the searched pokemon
     let new_list = [];
-    let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150';
+    let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=1017';
   
     function addSingle(item) {
       if (validate(item)) {

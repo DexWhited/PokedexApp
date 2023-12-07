@@ -65,6 +65,10 @@ a:hover{
     text-transform: capitalize;
 }
 
+.pokemon-list li{
+    padding: 10px;
+}
+
 .pokemon-list-item {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 10px;
@@ -83,6 +87,10 @@ a:hover{
     width: 900px;
 }
 
+.grid-container div {
+    margin: 10px;
+}
+
 .grid-container2 {
     display: inline-grid;
     grid-template-columns: repeat(5, auto);
@@ -90,6 +98,10 @@ a:hover{
     padding: 10px;
     text-align: center;
     width: 900px;
+}
+
+.grid-container2 div {
+    margin: 10px;
 }
 
 .grid-itemS2K {
