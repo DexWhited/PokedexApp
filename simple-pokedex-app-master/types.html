@@ -26,26 +26,26 @@
                     send the id to https://pokeapi.co/api/v2/type/(id goes here)
                     in order to show the typings ie: 'Normal' when clicked, sends the id '1'
                     into the link to bring back data on Normal types-->
-                <div class="grid-container">
-                    <div class="grid-item1" id="grid-item" style="--clr:#A8A878">Normal</div>
-                    <div class="grid-item2" id="grid-item" style="--clr:#F08030">Fire</div>
-                    <div class="grid-item3" id="grid-item" style="--clr:#6890F0">Water</div>
-                    <div class="grid-item4" id="grid-item" style="--clr:#78C850">Grass</div>
-                    <div class="grid-item5" id="grid-item" style="--clr:#F8D030">Electric</div>
-                    <div class="grid-item6" id="grid-item" style="--clr:#98D8D8">Ice</div>
-                    <div class="grid-item7" id="grid-item" style="--clr:#C03028">Fighting</div>
-                    <div class="grid-item8" id="grid-item" style="--clr:#A040A0">Poison</div>
-                    <div class="grid-item9" id="grid-item" style="--clr:#E0C068">Ground</div>
-                    <div class="grid-item10" id="grid-item" style="--clr:#A890F0">Flying</div>
-                    <div class="grid-item11" id="grid-item" style="--clr:#F85888">Psychic</div>
-                    <div class="grid-item12" id="grid-item" style="--clr:#A8B820">Bug</div>
-                    <div class="grid-item13" id="grid-item" style="--clr:#B8A038">Rock</div>
-                    <div class="grid-item14" id="grid-item" style="--clr:#705898">Ghost</div>
-                    <div class="grid-item15" id="grid-item" style="--clr:#7038F8">Dragon</div>
-                    <div class="grid-item16" id="grid-item" style="--clr:#705848">Dark</div>
-                    <div class="grid-item17" id="grid-item" style="--clr:#B8B8D0">Steel</div>
-                    <div class="grid-item18" id="grid-item" style="--clr:#EE99AC">Fairy</div>
-                </div>
+                    <div class="grid-container">
+                        <div class="grid-item1 grid-item" id="grid-item-normal" style="--clr:#A8A878">Normal</div>
+                        <div class="grid-item2 grid-item" id="grid-item-fire" style="--clr:#F08030">Fire</div>
+                        <div class="grid-item3 grid-item" id="grid-item-water" style="--clr:#6890F0">Water</div>
+                        <div class="grid-item4 grid-item" id="grid-item-grass" style="--clr:#78C850">Grass</div>
+                        <div class="grid-item5 grid-item" id="grid-item-electric" style="--clr:#F8D030">Electric</div>
+                        <div class="grid-item6 grid-item" id="grid-item-ice" style="--clr:#98D8D8">Ice</div>
+                        <div class="grid-item7 grid-item" id="grid-item-fighting" style="--clr:#C03028">Fighting</div>
+                        <div class="grid-item8 grid-item" id="grid-item-poison" style="--clr:#A040A0">Poison</div>
+                        <div class="grid-item9 grid-item" id="grid-item-ground" style="--clr:#E0C068">Ground</div>
+                        <div class="grid-item10 grid-item" id="grid-item-flying" style="--clr:#A890F0">Flying</div>
+                        <div class="grid-item11 grid-item" id="grid-item-psychic" style="--clr:#F85888">Psychic</div>
+                        <div class="grid-item12 grid-item" id="grid-item-bug" style="--clr:#A8B820">Bug</div>
+                        <div class="grid-item13 grid-item" id="grid-item-rock" style="--clr:#B8A038">Rock</div>
+                        <div class="grid-item14 grid-item" id="grid-item-ghost" style="--clr:#705898">Ghost</div>
+                        <div class="grid-item15 grid-item" id="grid-item-dragon" style="--clr:#7038F8">Dragon</div>
+                        <div class="grid-item16 grid-item" id="grid-item-dark" style="--clr:#705848">Dark</div>
+                        <div class="grid-item17 grid-item" id="grid-item-steel" style="--clr:#B8B8D0">Steel</div>
+                        <div class="grid-item18 grid-item" id="grid-item-fairy" style="--clr:#EE99AC">Fairy</div>
+                    </div>
             </div>
             <div id="body">
                 <ul class='pokemon-list'>
@@ -56,6 +56,7 @@
 
         <script src="js/promise-polyfill.js"></script>
         <script src="js/fetch-polyfill.js"></script>
-        <script src="js/scripts.dist.js"></script>
+        <!-- <script src="js/scripts.dist.js"></script> -->
+        <script src="js/type-filter.js"></script>
     </body>
 </html>
