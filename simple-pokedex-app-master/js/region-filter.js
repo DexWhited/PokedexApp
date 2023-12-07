@@ -9,8 +9,8 @@ function regionIdToGenerationId(regionId) {
         'KA': 6, 
         'A': 7, 
         'G': 8, 
-        'HI': 9, 
-        'P': 10, 
+        'HI': 10, 
+        'P': 9, 
         'KI': 11, 
     };
 
